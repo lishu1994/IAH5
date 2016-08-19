@@ -1,0 +1,109 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'happyfont';
+    src: url('../font/happyfont.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+html{
+    font-family: happyfont;
+    -webkit-text-size-adjust: none;
+    font-size: 100px;
+}
+body{
+    user-select: none;
+}
+header,article,section,aside,nav,footer,audio,figure,video,figcaption{
+    display: block;
+}
+input{
+    outline: none;
+}
+a,a:visited,a:active,a:target,a:hover{
+    text-decoration: none;
+}
+img{
+    display: block;
+    border: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+
+.swiper-slide:nth-child(1){
+    background: url("../img/bg1.png") no-repeat;
+    background-size: 100%;
+}
+.page1 div{
+    position: absolute;
+}
+.page1 .rotateLoop,.page1 .startBtn{
+    left: 50%;
+}
+.page1 .rotateLoop{
+    top:1.05rem;
+    margin-left: -2.3rem;
+    width: 4.6rem;
+    height: 4.6rem;
+}
+.page1 .smallCloud{
+
+}
+.page1 .largeCloud{
+
+}
+.page1 .startBtn{
+
+}
+.page1 .ball{
+
+}
+.page1 .leftBall{
+
+}
+.page1 .rightBall{
+
+}
+
+
+
+
+
+
+.swiper-slide:nth-child(2){
+    background: lightskyblue;
+}
+.swiper-slide:nth-child(3){
+    background: lightcoral;
+}
+.swiper-slide:nth-child(4){
+    background: lightsalmon;
+}
+.swiper-slide:nth-child(5){
+    background: lightyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
